@@ -41,8 +41,14 @@ npm run start
 
 ![image](./Img/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202022-06-20%20135128.png)
 
-[![Watch the video](./Img/index.js%20-%20webpack-babel-server%20-%20Visual%20Studio%20Code%202022-06-20%2013-12-30.mp4)]
-[![Watch the video](./Img/%C3%87al%C4%B1%C5%9Fanlar%20Projesi%20-%20Google%20Chrome%202022-06-20%2013-10-28.mp4)]
+
+
+https://user-images.githubusercontent.com/81258778/174594914-3a46745e-1461-4530-a951-ed25ee9fe7c2.mp4
+
+
+
+
+https://user-images.githubusercontent.com/81258778/174594934-44a6abca-6862-4d73-b35f-d1ef1e2c36c3.mp4
 
 
 
