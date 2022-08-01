@@ -11,7 +11,7 @@ export class UI {
     response.forEach((employee) => {
       result.innerHTML += `
     <tr class="table-success">                                     
-        <td>${employee.userName}</td>
+        <td>${employee.name}</td> 
         <td>${employee.Department}</td>
         <td>${employee.Salary}</td>
         <td>${employee.id}</td>
@@ -30,7 +30,7 @@ export class UI {
   addAllEmployeeTo(){
      this.employessList.innerHTML += `
      <tr class="table-success">                                     
-         <td>${employee.userName}</td>
+         <td>${employee.title}</td>
          <td>${employee.Department}</td>
          <td>${employee.Salary}</td>
          <td>${employee.id}</td>

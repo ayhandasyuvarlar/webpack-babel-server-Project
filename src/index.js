@@ -7,7 +7,7 @@ const departmentInput = document.getElementById('department')
 const salaryInput = document.getElementById('salary')
 const employeesList = document.getElementById('employees')
 const updateButton = document.getElementById('update')
-const requests = new Request('http://localhost:3250/Employe')
+const requests = new Request('  http://localhost:3004/data')
 const ui = new UI()
 
 let updateState = null
@@ -98,11 +98,11 @@ function updateEmployeeButton() {
       Salary: Number(employeeSalary),
     }
     requests
-      .put( data,updateState.updateId)
+      .put(data, updateState.updateId)
       .then((response) => {
         ui.updateEmployeeOnUI(response, updateState.updateParet)
         ui.clearInput()
       })
-      .catch((err) => console.log("başarısız"))
+      .catch((err) => console.log('başarısız'))
   }
 }
